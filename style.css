@@ -1,0 +1,55 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    position: relative;
+}
+.pin-element{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    z-index: 3;
+}
+.pin-element img{
+    height: 73%;
+}
+.section{
+    padding: 2% 15% 2% 15%;
+    z-index: 1;
+}
+.section h2{
+    font-size: 1.8em;
+    text-align: center;
+}
+.section p{
+    font-size: 1.3em;
+    text-align: justify;
+}
+.s1{
+    background-color: rgb(253, 243, 227);
+}
+.s2{
+    background-color: rgb(224, 243, 255);
+}
+.s3{
+    background-color: rgb(218, 255, 223);
+}
+.s4{
+    background-color: rgb(255, 235, 185);
+}
